@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Ram Prasad Kanojiya - Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'YOUR_TRACKING_ID');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Parth Ramprasad Kanojiya</h1>
+    <p>       UX/UI Designer | Graphic Designer</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a skilled UX/UI designer and a registered nurse with experience in web design, analytics, and graphic design.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Graphic Design</li>
+        <li>UX/UI Design</li>
+        <li>Web Development</li>
+        <li>Nursing and Healthcare</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Freelance Graphic Designer</strong> - Radhika Bhavan (2019-2023)</li>
+        <li><strong>Web Designer</strong> - Vinayak Heights</li>
+        <li><strong>Registered Nurse</strong> - NCLEX Certified</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor's Degree (BCA)</strong> - Dr. APJ Abdul Kalam University (2019-2022)</li>
+        <li><strong>Arena Animation</strong> - Certificate in Graphics and VFX</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Parth Ram Prasad Kanojiya</p>
+    <p>
+      <a href="mailto:parth@example.com"><i class="fas fa-envelope"></i> Email</a> |
+      <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+      <a href="https://linkedin.com/in/parth-kanojiya" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
