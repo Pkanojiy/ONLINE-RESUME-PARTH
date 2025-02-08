@@ -15,14 +15,19 @@ body {
     grid-template-columns: 1fr 2fr;
     gap: 20px;
     max-width: 1200px;
-    width: 100%;
     background: #fff;
     border: 2px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    padding: 20px;
 }
 .left-section, .right-section {
-    padding: 20px;
+    padding: 10px;
+}
+.photo-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 .section-header {
     padding: 10px;
@@ -37,8 +42,8 @@ body {
     background-color: #ff9933;
 }
 .box {
-    background: #f9f9f9;
-    border: 1px solid #ccc;
+    background: #f1faff;
+    border: 1px solid #3399ff;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 6px;
@@ -69,4 +74,11 @@ p, ul {
 ul {
     list-style-type: disc;
     margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: #3399ff;
+}
+a:hover {
+    text-decoration: underline;
 }
