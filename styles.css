@@ -1,84 +1,53 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-body {
-  font-family: "Montserrat", sans-serif;
-  background: #ffffff;
-  margin: 0;
-  padding: 0;
-}
-
-.resume {
-  width: 960px;
-  background: #1a237e;
-  color: white;
-  margin: 20px auto;
-  box-shadow: 10px 10px #0e1442;
-  display: flex;
-}
-
-.resume .base {
-  width: 30%;
-  padding: 30px 15px;
-  background: #283593;
-  color: white;
-}
-
-.resume .base .profile {
-  background: #ffb300;
-  padding: 30px 15px;
-  text-align: center;
-}
-
-.resume .base .profile .photo i {
-  font-size: 100px;
-  color: #283593;
-}
-
-.resume .base .profile .info .name {
-  font-size: 1.75em;
-  color: #1a237e;
-}
-
-.resume .base .profile .info .job {
-  font-size: 1.5em;
-  color: #283593;
-}
-
-.resume .contact div a {
-  color: white;
-  display: flex;
-  align-items: center;
-}
-
-.resume .contact div a i {
-  margin-right: 10px;
-  color: #ffb300;
-}
-
-.resume .func {
-  width: 70%;
-  padding: 30px;
-}
-
-.resume .func h3 {
-  color: #ffb300;
-  margin: 10px 0;
-  font-size: 1.25em;
-}
-
-.resume .func .work ul li,
-.resume .func .edu ul li {
-  padding-bottom: 15px;
-}
-
-.resume .func .work ul li::before,
-.resume .func .edu ul li::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border: 3px solid white;
-  background: #ffb300;
-  border-radius: 50%;
-  position: absolute;
-  left: 3px;
-}
+/* Social Media Buttons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+  
+  /* Facebook */
+  .social-btn.fb {
+    background-color: #3b5998;
+  }
+  .social-btn.fb:hover {
+    background-color: #2d4373;
+  }
+  
+  /* Instagram */
+  .social-btn.ig {
+    background-color: #e1306c;
+  }
+  .social-btn.ig:hover {
+    background-color: #c13584;
+  }
+  
+  /* LinkedIn */
+  .social-btn.ln {
+    background-color: #0077b5;
+  }
+  .social-btn.ln:hover {
+    background-color: #005582;
+  }
+  
+  /* GitHub */
+  .social-btn.gh {
+    background-color: #24292e;
+  }
+  .social-btn.gh:hover {
+    background-color: #181b1e;
+  }
+  
