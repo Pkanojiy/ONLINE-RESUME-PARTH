@@ -16,6 +16,7 @@
     font-weight: 400;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
+    background: #f8f8f8;
   }
   
   h1, h2 {
@@ -26,17 +27,19 @@
   
   .wrapper {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     background: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
   }
   
   .left {
     width: 30%;
     padding: 40px;
     text-align: center;
+    background: #f4f4f4;
   }
   
   .right {
@@ -44,46 +47,50 @@
     padding: 40px;
   }
   
-  .skill-set {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  
-  .skill-set li {
-    background: #222;
-    color: #fff;
-    padding: 12px 18px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    flex: 1 1 calc(33.333% - 10px);
-    text-align: center;
-  }
-  
-  .inner p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
-  }
-  
   .me-img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: auto;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name-text h1 {
+    font-size: 24px;
+    font-weight: 700;
   }
   
   .social-icons a {
+    font-size: 18px;
     color: #333;
-    font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s;
   }
   
   .social-icons a:hover {
     color: #3498db;
+  }
+  
+  .skill-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-set li {
+    background: #444;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex: 1 1 calc(33.333% - 10px);
+    text-align: center;
+    list-style: none;
   }
   
