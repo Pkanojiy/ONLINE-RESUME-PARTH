@@ -39,6 +39,7 @@
     min-width: 256px;
     position: fixed;
     width: 33.33%;
+    text-align: center;
   }
   
   .right {
@@ -112,5 +113,21 @@
   .handmade {
     text-align: right;
     margin-top: 100px;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #3498db;
   }
   
