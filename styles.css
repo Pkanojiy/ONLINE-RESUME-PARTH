@@ -54,6 +54,14 @@ h1, h2 {
     color: #34495e;
 }
 
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
 .section {
     margin-bottom: 30px;
 }
@@ -70,4 +78,13 @@ h1, h2 {
     padding: 10px 15px;
     margin: 5px;
     border-radius: 5px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
 }
