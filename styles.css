@@ -74,11 +74,18 @@
     margin-top: 100px;
   }
   
-  /* Social Icons */
-  .social-icons {
-    margin-top: 10px;
+  /* Skill-set block styling */
+  .skill-set li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
   }
   
+  /* Social Icons */
   .social-icons a {
     color: #333;
     font-size: 24px;
